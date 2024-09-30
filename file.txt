@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanfo - Speaker, Philosopher, Carpenter</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #2E3D30; /* Army Green */
+            color: #F4D03F; /* Gold */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #34495E; /* Navy Blue */
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            padding: 10px;
+            background-color: #F4D03F;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #2E3D30;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        .about, .blog, .hobbies, .contact {
+            margin-bottom: 50px;
+        }
+        .about h2, .blog h2, .hobbies h2, .contact h2 {
+            font-size: 2.5em;
+            color: #F4D03F;
+        }
+        .about p, .blog p, .hobbies p, .contact p {
+            font-size: 1.2em;
+            color: #D1D5D8; /* Light Grey */
+        }
+        footer {
+            background-color: #34495E;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        .images {
+            margin-top: 30px;
+        }
+        .images img {
+            width: 100px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sanfo</h1>
+        <p>Professional Speaker, Philosopher, Carpenter</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#blog">Blog</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact Info</a>
+    </nav>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Welcome to my personal space. I am a professional speaker, philosopher, and carpenter, with a deep love for sharing ideas and building a world of meaning and craftsmanship.</p>
+    </section>
+
+    <section id="blog" class="blog">
+        <h2>Blog</h2>
+        <p>Here you’ll find my thoughts on philosophy, life, and the projects I’m passionate about. Check back regularly for updates.</p>
+    </section>
+
+    <section id="hobbies" class="hobbies">
+        <h2>Hobbies</h2>
+        <p>When I’m not working on my craft or speaking engagements, I enjoy outdoor adventures, reading, and reflecting on nature.</p>
+        <div class="images">
+            <img src="https://via.placeholder.com/100x100?text=Eagle" alt="3D Eagle">
+            <img src="https://via.placeholder.com/100x100?text=Money" alt="3D Money">
+            <img src="https://via.placeholder.com/100x100?text=Gold" alt="Gold">
+            <img src="https://via.placeholder.com/100x100?text=Nature" alt="Breathtaking Nature">
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Info</h2>
+        <p>You can reach me at: <br>Email: sanfo@example.com<br>Phone: +123 456 7890</p>
+    </section>
+
+    <footer>
+        <p>© 2024 Sanfo. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
